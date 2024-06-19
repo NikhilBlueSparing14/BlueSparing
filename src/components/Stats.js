@@ -1,10 +1,10 @@
 import React from 'react';
 
 const statsContent = [
-    { icon: "fab fa-r-project", count: 200, text: "Successful Projects" },
-    { icon: "fas fa-smile", count: 100, text: "Happy Clients" },
-    { icon: "fas fa-medal", count: 30, text: "Business Awards" },
-    { icon: "fas fa-mug-hot", count: 130, text: "Cup Coffee" }
+    { icon: "fab fa-r-project", count: 20, text: "Successful Projects" },
+    { icon: "fas fa-smile", count: 20, text: "Happy Clients" },
+    { icon: "fas fa-medal", count: 15, text: "Business Awards" },
+    { icon: "fas fa-mug-hot", count: 100, text: "Cup Coffee" }
 ];
 
 const Stats = () => {

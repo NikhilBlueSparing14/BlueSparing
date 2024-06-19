@@ -8,8 +8,8 @@ const HeroSlider = () => {
                 <div className="col-md-6 banner-left pt-md-0 pt-5 pb-md-0 pb-sm-4">
                     <div className="container pt-md-0 pt-5">
                         <div className="banner-info ps-xxl-5 ps-xl-0 ps-5 ms-lg-5 py-md-0 py-5">
-                            <p className="mb-1">Business Solution!</p>
-                            <h3>Discover the world of Business </h3>
+                        <p className="mb-1">Empowering Your Business</p>
+                        <h3>Next-Gen IT Solutions</h3>
                             <a className="btn btn-style btn-style-2 mt-sm-5 mt-4" href="about.html">Get Started</a>
                         </div>
                     </div>

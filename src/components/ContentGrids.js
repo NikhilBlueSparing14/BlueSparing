@@ -25,10 +25,9 @@ const ContentGrids = () => {
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-4 ps-lg-5 mt-lg-0 mt-5">
-                        <h3 className="title-style mb-lg-4 mb-3">Digital Experience in the Talent Journey and Learning!</h3>
+                        <h3 className="title-style mb-lg-4 mb-3">Innovative IT Solutions For Your Business</h3>
                         <p className="text-para">
-                            Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
-                            lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus.
+                        At Blue Sparing, we specialize in providing innovative IT solution with a focus on the insurance industry. our mission is to empower insurance companies through cutting-edge technology, enhancing efficiency and customer engagement. Our expertise in developing robust, user-friendly insurance apps allows our clients to streamline their operations and provide exceptional service to their customers. Trust us to be your partner in digital transformation and innovation.
                         </p>
                         <a href="about.html" className="btn btn-style mt-sm-5 mt-4">Learn More</a>
                     </div>
@@ -39,10 +38,10 @@ const ContentGrids = () => {
 };
 
 const gridContent = [
-    { icon: "fas fa-chart-line", title: "Our Approach", description: "Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque ladase.", active: false },
-    { icon: "fas fa-business-time", title: "Our Experience", description: "Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque ladase.", active: true },
-    { icon: "fas fa-users", title: "Our Clients", description: "Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque ladase.", active: false },
-    { icon: "fas fa-city", title: "Our Office", description: "Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque ladase.", active: false },
+    { icon: "fas fa-desktop", title: "Web Development", description:"We create tailored software solutions that address your specific business challenges. Our development process ensures high-quality, scalable, and maintainable software.", active: false },
+    { icon: "fas fa-mobile", title: "App Development", description: "Engage your customers on the go with our innovative mobile app development services. We create high-performance, user-friendly mobile applications for both iOS and Android platforms.", active: true },
+    { icon: "fas fa-users", title: "Consulting", description: "Our IT consulting services help you navigate the complex technology landscape. We provide strategic advice to optimize your IT infrastructure and operations.", active: false },
+    { icon: "fas fa-city", title: "Graphic Designing", description: "Enhance your brand's appeal with our expert graphic design solutions. From logos to digital assets, we create captivating visuals tailored to your brand.", active: false },
 ];
 
 export default ContentGrids;

@@ -20,8 +20,7 @@ const Footer = () => {
                     <div className="row footer-p">
                         <div className="col-lg-4 pe-lg-5">
                             <h3>About Us</h3>
-                            <p className="mt-3">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
-                                minus id quod maxime placeat facere.</p>
+                            <p className="mt-3">We are the best IT software provider to improve your work. Specializing in insurance IT solutions, we enhance efficiency and customer engagement through innovative app development.</p>
                             <div className="columns-2 mt-4 pt-1">
                                 <ul className="social">
                                     <li><a href="#facebook"><i className="fab fa-facebook-f"></i></a></li>
@@ -38,19 +37,17 @@ const Footer = () => {
                                     <h3>Quick Link</h3>
                                     <ul className="footer-gd-16">
                                         <li><a href="about.html">About Us</a></li>
-                                        <li><a href="#clients">Our Clients</a></li>
                                         <li><a href="services.html">Services</a></li>
-                                        <li><a href="#blog">Blog Posts</a></li>
+                                        <li><a href="#Testimonials">Testimonials</a></li>
                                         <li><a href="contact.html">Contact Us</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-6 column">
                                     <h3>Contact Info</h3>
                                     <ul className="footer-contact-list">
-                                        <li>10001, 5th Avenue, #32841 block, USA</li>
-                                        <li className="mt-2"><a href="tel:+1223456790">+1223 456 790</a></li>
-                                        <li className="mt-2"><a href="mailto:info@example.com">info@example.com</a></li>
-                                        <li className="mt-2"><a href="mailto:info@example.com">www.example.com</a></li>
+                                    <li>505, 5th Floor, Royal Word, Sansar Chandra Road, Jaipur - 302001</li>
+                                        <li className="mt-2"><a href="tel:+1223456790">+91 96490 09500</a></li>
+                                        <li className="mt-2"><a href="mailto:info@example.com">support@bluesparing.com</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,8 +64,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="below-section text-center pt-lg-4 mt-5">
-                        <p className="copy-text">&copy; 2021 Work Field. All rights reserved. Design by <a
-                            href="https://w3layouts.com/" target="_blank" rel="noopener noreferrer"> W3Layouts</a></p>
+                    <p className="copy-text">&copy; 2024 Work Field. All rights reserved. Design by<span className="blinking-heart">❤️</span> Blue Sparing</p>
                     </div>
                 </div>
             </div>

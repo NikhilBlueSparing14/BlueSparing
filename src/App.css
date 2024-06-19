@@ -4525,12 +4525,14 @@ fieldset:disabled .btn {
   transition: background-color 0.3s ease;
 }
 .navbar.scrolled {
-  background-color: #fd7d6a;
+  background-color: #fff;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+  box-shadow: 2px 3px 4px silver;
+  padding: 5px !important;
 }
 .logo{
 width: 100%;
@@ -18648,15 +18650,14 @@ div#small-dialog iframe {
 .navbar-expand-lg .navbar-nav .nav-link.show,
 .navbar-expand-lg .navbar-nav .nav-link.active,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  border-bottom-color: #fff;
-  color: #fff;
+  border-bottom-color: #fd7d6a;
+  color: #fd7d6a;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 0;
   font-size: 16px;
-  color: #fff;
-  font-weight: 600;
+  color: #fd7d6a;
+  font-weight: 700;
   border-bottom: 1px solid transparent;
   padding: 0 8px;
 }
@@ -18706,7 +18707,7 @@ a.dropdown-item.active {
 }
 
 header {
-  background-color: transparent;
+  background-color: #fff;
   padding: 0;
   transition: all 0.4s ease 0s;
   height: 90px;
@@ -18807,7 +18808,6 @@ header.nav-fixed {
     border-right: none;
     border-bottom: none;
   }
-
   .navbar-toggler-icon {
     background-image: none;
     padding: 0;
@@ -19041,16 +19041,17 @@ span.video-play-icon:hover {
 }
 
 .banner-info h3 {
-  font-size: 60px;
+  font-size: 40px;
   line-height: 70px;
   font-weight: bold;
   color: #fff;
 }
 
 .banner-info p {
+  font-size: 40px;
+  line-height: 70px;
+  font-weight: bold;
   color: #fff;
-  font-size: 18px;
-  text-transform: uppercase;
 }
 
 @media (max-width:1199px) {
@@ -19696,7 +19697,6 @@ p.count-text {
 /* footer */
 .w3l-footer-16 {
   background: #131917;
-  height: 50vh; /* Set the height to 50vh */
   overflow: hidden; /* Prevent overflow */
 }
 
@@ -20186,3 +20186,11 @@ h4.inner-text-title {
 }
 
 /* //contact page */
+
+
+/* global */
+
+.none{
+  background: none;
+  border: none;
+}
